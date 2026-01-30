@@ -25,7 +25,7 @@ NODES=(
 )
 
 WORKFLOWS=(
-	"https://s3.cloudstore.pixerati.cloud/public-scripts/workflows/video_ltx2_i2v.json"
+	"https://raw.githubusercontent.com/pixerati/public_vast_provisioning/refs/heads/main/workflows/video_ltx2_i2v.json"
 )
 
 CHECKPOINT_MODELS=(
@@ -291,8 +291,6 @@ function provisioning_start() {
 	provisioning_get_files \
         "${COMFYUI_DIR}/user/default/workflows" \
         "${WORKFLOWS[@]}"
-	# Start background MinIO output sync daemon (waits for ComfyUI to be up)
-    provisioning_setup_output_sync
 	
     provisioning_print_end
 }

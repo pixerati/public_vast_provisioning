@@ -25,7 +25,7 @@ NODES=(
 )
 
 WORKFLOWS=(
-	"https://s3.cloudstore.pixerati.cloud/public-scripts/workflows/video_ltx2_i2v.json"
+	"https://raw.githubusercontent.com/pixerati/public_vast_provisioning/refs/heads/main/workflows/video_ltx2_i2v_fp8.json"
 )
 
 CHECKPOINT_MODELS=(

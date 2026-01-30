@@ -25,8 +25,7 @@ NODES=(
 )
 
 WORKFLOWS=(
-    "https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-NativeComfy.json"
-	"https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1-forKJ.json"
+    "https://raw.githubusercontent.com/pixerati/public_vast_provisioning/refs/heads/main/workflows/video_wan2_2_14B_i2v.json"
 )
 
 CHECKPOINT_MODELS=(

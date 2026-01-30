@@ -280,7 +280,7 @@ function provisioning_start() {
         "${COMFYUI_DIR}/user/default/workflows" \
         "${WORKFLOWS[@]}"
 	# Start background MinIO output sync daemon (waits for ComfyUI to be up)
-    provisioning_setup_output_sync
+    #provisioning_setup_output_sync
 	
     provisioning_print_end
 }

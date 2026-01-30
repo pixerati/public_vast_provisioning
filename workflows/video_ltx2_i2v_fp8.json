@@ -3580,7 +3580,7 @@
       "15": {
         "inputs": {
           "frame_rate": [
-            "23",
+            "24",
             0
           ],
           "loop_count": 0,
@@ -3677,7 +3677,7 @@
       "22": {
         "inputs": {
           "frame_rate": [
-            "23",
+            "24",
             0
           ],
           "positive": [
